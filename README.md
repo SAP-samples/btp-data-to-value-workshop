@@ -1,7 +1,21 @@
-# [Title]
+# SAP BTP Data-to-Value Workshop
 
 ## Description
+This repo contains a dataset, exercises, and sample code for a workshop scenario covering the end-to-end lifecycle of data-to-value including data provisioning and integration, data processing modelling, and data virtualization and analytics. 
 
+The storyline of the workshop is about turning data into business value for an online bookshop utilizing SAP HANA Cloud, SAP Data Warehouse Cloud, SAP Data Intelligence Cloud, and SAP Analytics Cloud.
+
+The exercise combines:
+- side-by-side partner solution data (books, authors, genres, etc.) in HCS
+-	book sales data from SAP S/4HANA Cloud
+-	external book review data from AWS S3
+
+We’ll address business issues such as:
+-	quarterly best-selling books
+-	book sales forecast 
+-	book recommendations 
+-	•	alphabetical and genre classification of books
+-	
 ## Requirements
 
 ## Download and Installation

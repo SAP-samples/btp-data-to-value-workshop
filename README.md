@@ -14,8 +14,8 @@ We’ll address business issues such as:
 -	quarterly best-selling books
 -	book sales forecast 
 -	book recommendations 
--	•	alphabetical and genre classification of books
--	
+-	alphabetical and genre classification of books
+
 ## Requirements
 
 ## Download and Installation

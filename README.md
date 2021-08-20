@@ -6,15 +6,15 @@ This repo contains a dataset, exercises, and sample code for a workshop scenario
 The storyline of the workshop is about turning data into business value for an online bookshop utilizing SAP HANA Cloud, SAP Data Warehouse Cloud, SAP Data Intelligence Cloud, and SAP Analytics Cloud.
 
 The exercise combines:
-- side-by-side partner solution data (books, authors, genres, etc.) in HCS
+- side-by-side partner solution data (books, authors, genres, etc.) in SAP HANA Cloud
 -	book sales data from SAP S/4HANA Cloud
 -	external book review data from AWS S3
 
 We’ll address business issues such as:
--	quarterly best-selling books
+-	quarterly best-selling books and ABC classification of books 
 -	book sales forecast 
 -	book recommendations 
--	alphabetical and genre classification of books
+-	book genre classification
 
 ## Requirements
 

@@ -10,8 +10,7 @@ In this section, we will prepare the data for the bookshop solution via SQL
 ## Steps to prepare the data for bookshop solution via SQL
 ### 1.Creating the bookshop tables via SQL
 - Open a SQL Console from SAP HANA Database Explorer URL
-- Copy the raw content of [bookshop_tables_initialisation.sql](bookshop_tables_initialisation.sql) and run on the SQL Console to create the bookshop tables.
-<br/>
+- Copy the raw content of [bookshop_tables_initialisation.sql](bookshop_tables_initialisation.sql) and run on the SQL Console to create the bookshop tables.<br/>
 As a result, the following tables have been created.
 - SAP_CAPIRE_BOOKSHOP_BOOKS: Books Master Data
 - SAP_CAPIRE_BOOKSHOP_GENRES: Book Genre ID and Name

@@ -1,0 +1,71 @@
+{
+  "name": "bookshop",
+  "version": "1.0.0",
+  "description": "A simple CAP project.",
+  "repository": "<Add your repository here>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@sap/audit-logging": "^5.0.0",
+    "@sap/cds": "^5",
+    "@sap/cds-dk": "^4.1.5",
+    "@sap/cds-odata-v2-adapter-proxy": "^1.7.4",
+    "@sap/cloud-sdk-vdm-business-partner-service": "^1.26.0",
+    "@sap/hana-client": "^2.6.61",
+    "@sap/xsenv": "^3.1.0",
+    "@sap/xssec": "^3.2.2",
+    "cors": "^2.8.5",
+    "express": "^4",
+    "swagger-ui-express": "^4.1.6"
+  },
+  "devDependencies": {
+    "@sap/hdi-deploy": "^4.0.5",
+    "@sap/ux-specification": "^1.90.1",
+    "sqlite3": "^5.0.2"
+  },
+  "scripts": {
+    "start": "cds run"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "env": {
+      "es2020": true,
+      "node": true,
+      "jest": true,
+      "mocha": true
+    },
+    "globals": {
+      "SELECT": true,
+      "INSERT": true,
+      "UPDATE": true,
+      "DELETE": true,
+      "CREATE": true,
+      "DROP": true,
+      "CDL": true,
+      "CQL": true,
+      "CXL": true,
+      "cds": true
+    },
+    "rules": {
+      "no-console": "off",
+      "require-atomic-updates": "off"
+    }
+  },
+  "sapux": [
+    "app/catalog"
+  ],
+  "cds": {
+    "requires": {
+      "db": {
+        "kind": "hana",
+        "model": "*",
+        "credentials": {
+          "database": ":memory:"
+        }
+      }
+    },
+    "hana": {
+      "deploy-format": "hdbtable"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+@server = http://localhost:4004
+@me = Authorization: Basic {{$processEnv USER}}:
+
+### Service Document
+GET {{server}}/browse
+
+### Service $metadata document
+GET {{server}}/browse/$metadata
+
+### Browsing Books
+GET {{server}}/browse/Books?
+# &$select=title,author
+# &$expand=currency
+# &sap-language=de
+
+### Browsing Authors
+GET {{server}}/admin/Authors?
+# &$select=name,dateOfBirth,placeOfBirth
+# &$expand=books($select=title;$expand=currency)
+# &$filter=ID eq 101
+# &sap-language=de
+
+### ------------------------------------------------------------------------
+# Submit Order as authenticated user
+# (send that three times to get out-of-stock message)
+POST {{server}}/browse/submitOrder
+Content-Type: application/json
+
+{ "book":201, "amount":5 }
+
+### Browsing Book 201
+GET {{server}}/browse/Books(201)
+# &$select=title,author
+# &$expand=currency
+# &sap-language=de
+### Browsing Authors
+
+###
+# Get Orders
+GET {{server}}/manage/Orders?
+# &$expand=Items
+
+###
+# GET a list of Business Partners
+# Scenario A or B
+###Ï
+GET {{server}}/manage/Customers
+###
+# POST a specific Business Partner
+###
+POST {{server}}/manage/Customers
+Content-Type: application/json
+Accept: application/json
+
+{
+"FirstName": "Amazon",
+"LastName": "Bootcamp",
+"BusinessPartnerCategory":"1"
+}

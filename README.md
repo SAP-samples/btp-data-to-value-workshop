@@ -1,13 +1,16 @@
-# SAP BTP Data-to-Value Workshop
+# SAP BTP Data-to-Value Bootcamp
+This SAP BTP Data-to-Value Bootcamp is developed and delivered by Partner Ecosystem Success Organisation(formerlly known as GPO) of SAP SE, which aims to accelerate our SAP Partners's adoption of SAP BTP Data-to-Value with an 3 days' data-to-value bootcamp under an end-to-end bookshop storyline, helping the bookshop manager to turn the data into business values with SAP BTP Solution Portofilio about Database, Data Management&Analytics. The format of this bootcamp is made of with presentation, demo and exercise with a during 3~4 hours each day and 3 days in total. <br/>
+The bookshop solution is a popular example of SAP Cloud Applicatin Programing Model for side-by-side extensibility, also as an exercise of our SAP BTP Extension Suite Bootcamp. <br/>
+At the end of the bootcamp, badges will be issued by SAP to those participants who have gone throught the whole bootcamp the and completed all the exercise tasks.
 
 ## Description
-This repo contains a dataset, exercises, and sample code for a workshop scenario covering the end-to-end data-to-value with the database, data management & analytics solution portofilio of SAP Business Technology Plaform such as 
+This repo contains a dataset, exercises, and sample code for SAP BTP Data-to-Value bootcamp. Covering an end-to-end data-to-value with the Database, Data Management & Analytics solution portofilio of SAP Business Technology Plaform such as 
 - SAP HANA Cloud Service(HCS) 
 - SAP Data Warehouse Cloud(DWC)
 - SAP Data Intelligence Cloud(DI)
 - SAP Analytics Cloud(SAC)
 <br/>  
-The agenda of this workshop is structured as process-oritented as below instead of product-oritented.
+The agenda of this bootcamp is structured as process-oritented as below instead of product-oritented.
 - Data Provisioning and Integration(HCS,DWC,DI)
 - Data Modeling and Processing(DWC,DI)
 - Data Virtualization and Analytics(SAC) 
@@ -40,9 +43,9 @@ As an SAP partner, you’ll help to address business questions such as:
 
 ## Requirements
 ### System Access Prerequisites
-The system prerequisites below only apply to the self-pace learning without attending our BTP Data-to-Value workshop organised by the Partner Ecosystem Success organisation of SAP, which all these system accesses are prepared and communicated by SAP to the participants who attend to the workshop.
+The system prerequisites below only apply to the self-pace learning without attending our BTP Data-to-Value bootcamp organised by the Partner Ecosystem Success organisation of SAP, which all these system accesses are prepared and communicated by SAP to the participants who attend to the bootcamp.
 - An SAP HANA Cloud instance(trial version is fine) for bookshop solution
-    - Provision a SAP HANA Database instance of SAP HANA Cloud Service used by the bookshop solution. Required by self-pace learning without attending the workshop, which has been prepared with Technical Academy Environment
+    - Provision a SAP HANA Database instance of SAP HANA Cloud Service used by the bookshop solution. Required by self-pace learning without attending the bootcamp, which has been prepared with Technical Academy Environment
     - Obtain the SAP HANA Database Explorer URL, HANA Database User and Password to the target SAP HANA Cloud Service through you SAP HANA Cloud central.
 - An SAP S/4HANA Cloud tenant for book products and active sales orders of books since 2021
 - An AWS S3 bucket for archived historic book sales orders from 2011 to 2020
@@ -51,7 +54,7 @@ The system prerequisites below only apply to the self-pace learning without atte
 - An SAP Analytics Cloud tenant.(Trial version is fine)
 
 ### Knowledge Prerequisites
-For the day 2 of the workshop, we have covered two machine learning scenarios, 
+For the day 2 of the bootcamp, we have covered two machine learning scenarios, 
 - one for book recommendation with SAP HANA Machine Learning 
 - the other for book genre clustering with sklearn. 
 

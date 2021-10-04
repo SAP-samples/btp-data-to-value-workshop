@@ -5,7 +5,7 @@ In this section, we will prepare the data for the bookshop solution via SQL
 
 ## Pre-requisites
 - Obtain the SAP HANA Database Explorer URL, Database User and Password to the target SAP HANA Cloud Service.
-- A database schema in place for bookshop solution. For participant attending the workshop, please use the schema assigned to you. 
+- A database schema in place for bookshop solution. For participant attending the bootcamp, please use the schema assigned to you. 
 
 ## Steps to prepare the data for bookshop solution via SQL
 ### 1.Creating the bookshop tables via SQL

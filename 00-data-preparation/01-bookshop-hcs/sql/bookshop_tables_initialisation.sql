@@ -1,7 +1,7 @@
 /* 
 
 [DESCRIPTION]
-Initialise the tables for Bookshop Management Solution via DDL for Data-to-Value Workshop.
+Initialise the tables for Bookshop Management Solution via DDL for Data-to-Value bootcamp.
 In case the solution is not deployed via cds deploy command. 
 
 - SAP_CAPIRE_BOOKSHOP_BOOKS: Books master data.

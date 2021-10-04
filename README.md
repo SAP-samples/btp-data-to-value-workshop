@@ -5,15 +5,13 @@ At the end of the bootcamp, a badge will be issued by SAP to those participants 
 <br/><br/>
 The bookshop solution is a popular example of SAP Cloud Applicatin Programing Model(CAP) for Side-by-Side Extensibility with SAP BTP, also as an exercise of our SAP BTP Extension Suite Bootcamp. 
 
-
 ## Description
 This github repository contains the dataset, exercises, and sample code for SAP BTP Data-to-Value bootcamp. Covering an end-to-end data-to-value process with the Database, Data Management & Analytics solution portofilio of SAP Business Technology Plaform such as 
 - SAP HANA Cloud Service(HCS) 
 - SAP Data Warehouse Cloud(DWC)
 - SAP Data Intelligence Cloud(DI)
 - SAP Analytics Cloud(SAC)
-<br/>  
-
+<br/>
 ### Agenda
 The agenda of this bootcamp is structured as process-oritented as below instead of product-oritented.
 - Data Provisioning and Integration(HCS,DWC,DI)
@@ -25,9 +23,10 @@ The agenda of this bootcamp is structured as process-oritented as below instead 
 John, the owner of an online bookshop business named Amilka Bookshop Ltd based in London, as a fan of Roald Dahl since childhood in 80s who has a dream of owning the bookshop in his nabourhood with heaps of attrative children literature collections, has started his own bookshop busines since 2011 as an online bookshop web shop specialising on children literature. Later in-house bookshop management solution and implemented a local ERP for finance and operation. As the business grows and geographical expansion, in late 2020, John has hired an SAP Partner to replace the local ERP with a modern modular cloud ERP-SAP S/4HANA Cloud, and migrate the legacy bookshop management solution to SAP HANA Cloud with SAP Cloud Application Programing Model with sealess integration with SAP S/4HANA Cloud. The historical book sales data from 2011 to 2020 are extrated from legacy ERP into csv files. The project has successfully gone live since beginning of 2021. Since then the book sales has been maintained in SAP S/4HANA Cloud, so is the book catalog and online orders are managed with the new bookshop solution powered by SAP HANA Cloud and SAP Cloud Application Programing Model.  <br/>
 
 Given the business data accumulated for the past decade, John realises that he could have maken use of these data for 
-- smarter business insight and decision making 
-- more intelligent business planning
-- operational efficiency improvement with automation 
+- smart business insight and decision making 
+- intelligent business planning
+- operational efficiency improvement with automation
+- reimagining the business with new services or products
 - ...
 
 The data landscape of Amilka Bookshop Ltd as:
@@ -35,12 +34,12 @@ The data landscape of Amilka Bookshop Ltd as:
 - active book sales data since 2021 from SAP S/4HANA Cloud
 - archived historic book sales data from 2011 to 2020 in AWS S3
 
-As an SAP partner, you’ll help to address business questions such as:
+As an SAP partner, you’ll help John to address business questions such as:
 - quarterly books sales trend
 - top best-selling books/authors, and drill down to insight about specific book sales trend etc
 - book sales forecast and planning
 - book recommendation with machine learning to improve the customer purchasing experience and upsales.
-- book genre clustering with machine learning to  
+- book genre clustering with machine learning to automate the book genre prediction for new books. 
 - ...
 
 ### Solution Architecture

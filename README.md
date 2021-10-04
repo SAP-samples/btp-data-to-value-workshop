@@ -12,6 +12,7 @@ This github repository contains the dataset, exercises, and sample code for SAP 
 - SAP Data Intelligence Cloud(DI)
 - SAP Analytics Cloud(SAC)
 <br/>
+
 ### Agenda
 The agenda of this bootcamp is structured as process-oritented as below instead of product-oritented.
 - Data Provisioning and Integration(HCS,DWC,DI)

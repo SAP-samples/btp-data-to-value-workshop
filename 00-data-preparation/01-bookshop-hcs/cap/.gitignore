@@ -4,6 +4,7 @@ _out
 connection.properties
 default-*.json
 package-lock.json
+app/catalog/package-lock.json
 gen/
 node_modules/
 target/

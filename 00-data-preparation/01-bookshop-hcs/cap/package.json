@@ -1,9 +1,8 @@
 {
   "name": "bookshop",
   "version": "1.0.0",
-  "description": "A simple CAP project.",
-  "repository": "<Add your repository here>",
-  "license": "UNLICENSED",
+  "description": "A simple CAP bookshop project.",
+  "license": "Appache 2.0",
   "private": true,
   "dependencies": {
     "@sap/audit-logging": "^5.0.0",

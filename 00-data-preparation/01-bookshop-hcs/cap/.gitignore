@@ -3,6 +3,7 @@ _out
 *.db
 connection.properties
 default-*.json
+package-lock.json
 gen/
 node_modules/
 target/

@@ -1,10 +1,13 @@
 # SAP BTP Data-to-Value Bootcamp
 This SAP BTP Data-to-Value Bootcamp is developed and delivered by Partner Ecosystem Success Organization (formerly known as GPO) of SAP SE, which aims to accelerate SAP partner adoption of SAP BTP Data-to-Value. The bootcamp uses an end-to-end storyline about a bookshop, helping the bookshop manager to turn the data into business values with the SAP BTP solution portfolio about database, data management & analytics. 
-
-<br/><br/>The bootcamp events are organized and delivered through SAP Learning Hub with a format of presentation, demo and exercise, which lasts 3~4 hours each day and 3 days in total. In addition, the system access of this bootcamp are prepared for the participants by SAP organizer. However, the system requirement and data preparation is also documented in this repository, where you can build up your own system landscape to complete this bootcamp on your own.
+<br/>
+<br/>
+The bootcamp events are organized and delivered through SAP Learning Hub with a format of presentation, demo and exercise, which lasts 3~4 hours each day and 3 days in total. In addition, the system access of this bootcamp are prepared for the participants by SAP organizer. However, the system requirement and data preparation is also documented in this repository, where you can build up your own system landscape to complete this bootcamp on your own.
+<br/>
 <br/>
 At the end of the bootcamp, a badge will be issued by SAP to those participants who have gone throughout the whole bootcamp  and completed all the exercise tasks as a recognition of achievement.
-<br/><br/>
+<br/>
+<br/>
 The bookshop solution is a popular example of SAP Cloud Application Programing Model (CAP) for side-by-side extensibility with SAP BTP, also as an exercise of our SAP BTP Extension Suite Bootcamp. 
 
 ## Description
@@ -13,7 +16,6 @@ This GitHub repository contains the dataset, exercises, and sample code for the 
 - SAP Data Warehouse Cloud (DWC)
 - SAP Data Intelligence Cloud (DI)
 - SAP Analytics Cloud (SAC)
-<br/>
 
 ### Agenda
 The agenda of this bootcamp is structured as process-oriented as below instead of product-oriented.

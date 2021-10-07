@@ -124,7 +124,7 @@ Here you will perform the exercises to
 - Create a Book Recommendation machine learning model with Jupyter notebook using Market Analysis Association in SAP HANA Machine Learning(PAL/APL), and operationalise the model training and inference with pipeline in SAP Data Intelligence Cloud.
 - Create a Book Genre machine learning model with Jupyter notebook using sklearn, and operationalise the model training and inference with pipeline in SAP Data Intelligence Cloud.
 ### [03-Data Visualisation&Analytics](03-data-visualisation&analytics)
-Here you will erform the exercises to 
+Here you will perform the exercises to 
 - Create a live connection to SAP Data Warehouse Cloud in SAC
 - Create a dataset by uploading a CSV file
 - Create a Story about Bookshop Sales 360 based on the perspective All_Bool_Sales_Order of Book Sales Consumption Model with the live connection to SAP Data Warehouse Cloud

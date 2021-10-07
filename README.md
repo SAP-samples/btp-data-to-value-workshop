@@ -38,7 +38,7 @@ This GitHub repository contains the dataset, exercises, and sample code for the 
 The agenda of this bootcamp is structured as process-oriented as below instead of product-oriented.
 - Data Provisioning and Integration (HCS,DWC,DI)
 - Data Modeling and Processing (DWC,DI)
-- Data Visualization and Analytics (SAC) 
+- Data Visualisation and Analytics (SAC) 
 
 ### Storyline
 ![Bookshop Data-to-Value Storyline](resources/bookshop-d2v-storyline.png)
@@ -112,8 +112,12 @@ Therefore, in order to have an effective learning, the participants should teach
 
 ## End-to-end Exercises Flow
 ### [00-Data Preparation](00-data-preparation)
-You can find the dataset and steps to prepare the data here.
-### 01-Data Prevision&Integration
+Here you can find the dataset and steps to prepare the data.
+### [01-Data Prevision&Integration](01-data-provision&integration)
+Here you will learn how to connect the following source system to SAP Data Warehouse Cloud and SAP Data Intellgience Cloud
+- SAP HANA Cloud(bookshop solution)
+- SAP S/4HANA Cloud
+- AWS S3
 ### 02-Data Modeling&Processing
 ### 03-Data Visualisation&Analytics
 

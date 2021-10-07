@@ -118,9 +118,19 @@ Here you will learn how to connect the following source system to SAP Data Wareh
 - SAP HANA Cloud(bookshop solution)
 - SAP S/4HANA Cloud
 - AWS S3
-### 02-Data Modeling&Processing
-### 03-Data Visualisation&Analytics
-
+### [02-Data Modeling&Processing](02-data-modeling&processing)
+Here you will learn to 
+- Create an end-to-end Book Sales Analysis Consumption Model with data builder and business builder of SAP Data Warehouse Cloud.
+- Create a Book Recommendation machine learning model with Jupyter notebook using Market Analysis Association in SAP HANA Machine Learning(PAL/APL), and operationalise the model training and inference with pipeline in SAP Data Intelligence Cloud.
+- Create a Book Genre machine learning model with Jupyter notebook using sklearn, and operationalise the model training and inference with pipeline in SAP Data Intelligence Cloud.
+### [03-Data Visualisation&Analytics](03-data-visualisation&analytics)
+Here you will learn to 
+- Create a live connection to SAP Data Warehouse Cloud in SAC
+- Create a dataset by uploading a CSV file
+- Create a Story about Bookshop Sales 360 based on the perspective All_Bool_Sales_Order of Book Sales Consumption Model with the live connection to SAP Data Warehouse Cloud
+- Add a story page for Sales Insight by publisher with Search to Insight and Smart insight
+- Create a planning model by uploading a CSV file
+- Create a book sales forecast with predictive planning.
 ## How to obtain support
 
 [Create an issue](https://github.com/SAP-samples/<repository-name>/issues) in this repository if you find a bug or have questions about the content.

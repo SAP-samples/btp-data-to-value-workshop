@@ -38,7 +38,7 @@ This GitHub repository contains the dataset, exercises, and sample code for the 
 The agenda of this bootcamp is structured as process-oriented as below instead of product-oriented.
 - Data Provisioning and Integration (HCS,DWC,DI)
 - Data Modeling and Processing (DWC,DI)
-- Data Virtualization and Analytics (SAC) 
+- Data Visualization and Analytics (SAC) 
 
 ### Storyline
 ![Bookshop Data-to-Value Storyline](resources/bookshop-d2v-storyline.png)

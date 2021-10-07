@@ -1,4 +1,3 @@
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/btp-data-to-value-workshop)](https://api.reuse.software/info/github.com/SAP-samples/btp-data-to-value-workshop)
 # Data Preparation for SAP BTP Data-to-Value Bootcamp
 This bookshop dataset is designed for the SAP BTP Data-to-Value Bootcamp, which is based on the [British Library](https://www.bl.uk/collection-metadata/downloads) Dataset about Children's Literature under the [Creative Commons CC0 1.0 Universal Public Domain Dedication License](https://creativecommons.org/publicdomain/zero/1.0/).
 

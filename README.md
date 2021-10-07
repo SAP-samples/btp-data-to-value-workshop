@@ -13,19 +13,19 @@ The bookshop solution is a popular example of SAP Cloud Application Programing M
 <br/>
 <br/>
 Table of content
-- [Description](##Description)
-    - [Agenda](###Agenda)
-    - [Storyline](###Storyline)
-    - [Solution Architecture](###Solution-Architecture)
-    - [Final Outcomes of the Storyline](###Final-Outcomes-of-the-Storyline)
-- [Requirements](##Requirements)
-    - [System Access Prerequisites](###System-Access-Prerequisites) 
-    - [Knowledge Prerequisites](###Knowledge-Prerequisites)
-- [End-to-end Exercises Flow](##End-to-end-Exercises-Flow)
-    - [00-Data Preparation](###00-Data-Preparation)
-    - [01-Data Prevision&Integration](###01-Data-Prevision&Integration)
-    - [02-Data Modeling&Processing](###02-Data-Modeling&Processing)
-    - [03-Data Visualisation&Analytics](###03-Data-Visualisation&Analytics)
+- [Description](#Description)
+    - [Agenda](#Agenda)
+    - [Storyline](#Storyline)
+    - [Solution Architecture](#Solution-Architecture)
+    - [Final Outcomes of the Storyline](#Final-Outcomes-of-the-Storyline)
+- [Requirements](#Requirements)
+    - [System Access Prerequisites](#System-Access-Prerequisites) 
+    - [Knowledge Prerequisites](#Knowledge-Prerequisites)
+- [End-to-end Exercises Flow](#End-to-end-Exercises-Flow)
+    - [00-Data Preparation](#00-Data-Preparation)
+    - [01-Data Prevision&Integration](#01-Data-Prevision&Integration)
+    - [02-Data Modeling&Processing](#02-Data-Modeling&Processing)
+    - [03-Data Visualisation&Analytics](#03-Data-Visualisation&Analytics)
 
 ## Description
 This GitHub repository contains the dataset, exercises, and sample code for the SAP BTP Data-to-Value Bootcamp. Covering an end-to-end data-to-value process with the database, data management & analytics solution portfolio of SAP Business Technology Platform such as: 

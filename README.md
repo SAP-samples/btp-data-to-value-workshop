@@ -114,17 +114,17 @@ Therefore, in order to have an effective learning, the participants should teach
 ### [00-Data Preparation](00-data-preparation)
 Here you can find the dataset and steps to prepare the data.
 ### [01-Data Prevision&Integration](01-data-provision&integration)
-Here you will learn how to connect the following source system to SAP Data Warehouse Cloud and SAP Data Intellgience Cloud
+Here you will perform the exercises about how to connect the following source system to SAP Data Warehouse Cloud and SAP Data Intellgience Cloud
 - SAP HANA Cloud(bookshop solution)
 - SAP S/4HANA Cloud
 - AWS S3
 ### [02-Data Modeling&Processing](02-data-modeling&processing)
-Here you will learn to 
+Here you will perform the exercises to 
 - Create an end-to-end Book Sales Analysis Consumption Model with data builder and business builder of SAP Data Warehouse Cloud.
 - Create a Book Recommendation machine learning model with Jupyter notebook using Market Analysis Association in SAP HANA Machine Learning(PAL/APL), and operationalise the model training and inference with pipeline in SAP Data Intelligence Cloud.
 - Create a Book Genre machine learning model with Jupyter notebook using sklearn, and operationalise the model training and inference with pipeline in SAP Data Intelligence Cloud.
 ### [03-Data Visualisation&Analytics](03-data-visualisation&analytics)
-Here you will learn to 
+Here you will erform the exercises to 
 - Create a live connection to SAP Data Warehouse Cloud in SAC
 - Create a dataset by uploading a CSV file
 - Create a Story about Bookshop Sales 360 based on the perspective All_Bool_Sales_Order of Book Sales Consumption Model with the live connection to SAP Data Warehouse Cloud

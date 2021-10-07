@@ -22,10 +22,10 @@ Table of content
     - [System Access Prerequisites](###System-Access-Prerequisites) 
     - [Knowledge Prerequisites](###Knowledge-Prerequisites)
 - [End-to-end Exercises Flow](##End-to-end-Exercises-Flow)
-    - [01-Data Preparation](###01-Data-Preparation)
-    - [02-Data Prevision&Integration](###02-Data-Prevision&Integration)
-    - [03-Data Modeling&Processing](###03-Data-Modeling&Processing)
-    - [04-Data Visualisation&Analytics](###04-Data-Visualisation&Analytics)
+    - [00-Data Preparation](###00-Data-Preparation)
+    - [01-Data Prevision&Integration](###01-Data-Prevision&Integration)
+    - [02-Data Modeling&Processing](###02-Data-Modeling&Processing)
+    - [03-Data Visualisation&Analytics](###03-Data-Visualisation&Analytics)
 
 ## Description
 This GitHub repository contains the dataset, exercises, and sample code for the SAP BTP Data-to-Value Bootcamp. Covering an end-to-end data-to-value process with the database, data management & analytics solution portfolio of SAP Business Technology Platform such as: 
@@ -111,10 +111,11 @@ For the day 2 of the bootcamp, we have covered two machine learning scenarios,
 Therefore, in order to have an effective learning, the participants should teach themselves with this openSAP course about [Get Started with Data Science (Edition 2021)](https://open.sap.com/courses/ds3)
 
 ## End-to-end Exercises Flow
-### 01-Data Preparation
-### 02-Data Prevision&Integration
-### 03-Data Modeling&Processing
-### 04-Data Visualisation&Analytics
+### [00-Data Preparation](00-data-preparation)
+You can find the dataset and steps to prepare the data here.
+### 01-Data Prevision&Integration
+### 02-Data Modeling&Processing
+### 03-Data Visualisation&Analytics
 
 ## How to obtain support
 

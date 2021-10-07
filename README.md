@@ -1,6 +1,6 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/btp-data-to-value-workshop)](https://api.reuse.software/info/github.com/SAP-samples/btp-data-to-value-workshop)
 # SAP BTP Data-to-Value Bootcamp
-This SAP BTP Data-to-Value Bootcamp is developed and delivered by Partner Ecosystem Success Organization (formerly known as GPO) of SAP SE, which aims to accelerate SAP partner adoption of SAP BTP Data-to-Value. The bootcamp uses an end-to-end storyline about a bookshop, helping the bookshop manager to turn the data into business values with the SAP BTP solution portfolio about database, data management & analytics. 
+This SAP BTP Data-to-Value Bootcamp is developed and delivered by Partner Ecosystem Success Organization (formerly known as GPO) of SAP SE, which aims to accelerate SAP partner adoption of SAP BTP for Data-to-Value. The bootcamp uses an end-to-end storyline about a bookshop, helping the bookshop manager to turn the data into business values with the SAP BTP solution portfolio about database, data management & analytics. 
 <br/>
 <br/>
 The bootcamp events are organized and delivered through SAP Learning Hub with a format of presentation, demo and exercise, which lasts 3~4 hours each day and 3 days in total. In addition, the system access of this bootcamp are prepared for the participants by SAP organizer. However, the system requirement and data preparation is also documented in this repository, where you can build up your own system landscape to complete this bootcamp on your own.
@@ -10,6 +10,22 @@ At the end of the bootcamp, a badge will be issued by SAP to those participants 
 <br/>
 <br/>
 The bookshop solution is a popular example of SAP Cloud Application Programing Model (CAP) for side-by-side extensibility with SAP BTP, also as an exercise of our SAP BTP Extension Suite Bootcamp. 
+<br/>
+<br/>
+Table of content
+- [Description](##Description)
+    - [Agenda](###Agenda)
+    - [Storyline](###Storyline)
+    - [Solution Architecture](###Solution-Architecture)
+    - [Final Outcomes of the Storyline](###Final-Outcomes-of-the-Storyline)
+- [Requirements](##Requirements)
+    - [System Access Prerequisites](###System-Access-Prerequisites) 
+    - [Knowledge Prerequisites](###Knowledge-Prerequisites)
+- [End-to-end Exercises Flow](##End-to-end-Exercises-Flow)
+    - [01-Data Preparation](###01-Data-Preparation)
+    - [02-Data Prevision&Integration](###02-Data-Prevision&Integration)
+    - [03-Data Modeling&Processing](###03-Data-Modeling&Processing)
+    - [04-Data Visualisation&Analytics](###04-Data-Visualisation&Analytics)
 
 ## Description
 This GitHub repository contains the dataset, exercises, and sample code for the SAP BTP Data-to-Value Bootcamp. Covering an end-to-end data-to-value process with the database, data management & analytics solution portfolio of SAP Business Technology Platform such as: 
@@ -38,10 +54,10 @@ Given the business data accumulated for the past decade, John realizes that he c
 
 The data landscape of Amilka Bookshop Ltd. as:
 - bookshop solution (books, authors, genres, etc.) in SAP HANA Cloud
-- active book sales data since 2021 from SAP S/4HANA Cloud
+- active book sales data since 2021 in SAP S/4HANA Cloud
 - archived historic book sales data from 2011 to 2020 in AWS S3
 
-As an SAP partner, you’ll help John to address business questions such as:
+As an SAP partner, through this bootcamp you’ll help John to address business questions such as:
 - quarterly books sales trend
 - top best-selling books/authors, and drill down to insight about specific book sales trend etc.
 - book sales forecast and planning
@@ -51,13 +67,26 @@ As an SAP partner, you’ll help John to address business questions such as:
 
 ### Solution Architecture
 ![Bookshop Data-to-Value Solution Architecture](resources/bookshop-d2v-architecture.png)
+- SAP S/4HANA Cloud: The books are mapped as product master data, and active books sales order since 2021 are recorded.
+- SAP HANA Cloud: SAP HANA DB is used as a database of bookshop solution extending SAP S/4HANA Cloud in a fashion of Side-by-Side Extensibility.
+- AWS S3: The archived historic book sales order items from 2011 to 2020 in csv format.
+- SAP Data Warehouse Cloud: Used as a central data storage and management to integrate, transform and persist the three data sources above, eventually modeled as a comprehensive multi-dimensional anlaytcal cube of book sales order item with book, author, genre, year/quarter/month etc dimension for Books Sales analytics. Also used for Book Recommendation with PAL/APL of built-in HANA Cloud Service within SAP Data Warehouse Cloud.
+- SAP Data Intelligence Cloud: End-to-end Machine Learning Orchestration and Optionisation for Book Recommendation and Book Genre Clustering
+- SAP Analytics Cloud: Used for data virtualisation and anltyics of bookshop, such as       
+    - Bookshop Sales 360 with live connection to SAP Data Warehouse Cloud's consumption model
+        - Book Sales KPI of current Quarter, 
+        - Quarterly Book Sales Trend, 
+        - Interactive Sales Insight by Month/Book/Author, 
+        - Montly Book Sales Report etc. 
+    - Book Sales Forecast with Predictive Planning.
+    - ...
 
 ### Final Outcomes of the Storyline
-#### Bookshop Sales Overview
-![Bookshop Sales Overview](resources/bookshop-sales-overview.png)
+#### Bookshop Sales 360
+![Bookshop Sales 360](resources/bookshop-sales-overview.png)
 
 #### Book Sales Forecast
-![Book Sales Overview](resources/book-sales-forecast.png)
+![Book Sales Forecast](resources/book-sales-forecast.png)
 
 ## Requirements
 ### System Access Prerequisites
@@ -77,6 +106,12 @@ For the day 2 of the bootcamp, we have covered two machine learning scenarios,
 - the other for book genre clustering with sklearn. 
 
 Therefore, in order to have an effective learning, the participants should teach themselves with this openSAP course about [Get Started with Data Science (Edition 2021)](https://open.sap.com/courses/ds3)
+
+## End-to-end Exercises Flow
+### 01-Data Preparation
+### 02-Data Prevision&Integration
+### 03-Data Modeling&Processing
+### 04-Data Visualisation&Analytics
 
 ## How to obtain support
 

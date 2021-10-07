@@ -85,8 +85,11 @@ As an SAP partner, through this bootcamp you’ll help John to address business 
 #### Bookshop Sales 360
 ![Bookshop Sales 360](resources/bookshop-sales-overview.png)
 
-#### Book Sales Forecast
-![Book Sales Forecast](resources/book-sales-forecast.png)
+#### Smart Sales Insight  
+![Smart Sales Insight](resources/bookshop_smart_sales_insight.png)
+
+#### Book Sales Forecast with Preditive Planning
+![Book Sales Forecast with Preditive Planning](resources/book-sales-forecast.png)
 
 ## Requirements
 ### System Access Prerequisites

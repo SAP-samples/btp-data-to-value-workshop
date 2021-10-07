@@ -23,7 +23,4 @@ Please import the following tables with csv files in sequence through Catalog > 
 - SAP_CAPIRE_BOOKSHOP_GENRES: [genres.csv](../../00-dataset/genres.csv)
 - SAP_CAPIRE_BOOKSHOP_AUTHORS: [authors.csv](../../00-dataset/authors.csv)
 - SAP_CAPIRE_BOOKSHOP_BOOKS: [books.csv](../../00-dataset/books.csv)
-- SAP_CAPIRE_BOOKSHOP_ORDERITEMS: [sales_order_items_all.csv](../../00-dataset/sales_order_items_all.csv)
-
-
-
+- SAP_CAPIRE_BOOKSHOP_ORDERITEMS: [sales_order_items_all_extended.csv](../../00-dataset/sales_order_items_all_exended.csv)

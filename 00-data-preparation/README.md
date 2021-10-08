@@ -13,7 +13,7 @@ This [bookshop dataset](00-dataset)(csv format) is made of
 The schema of sales order item except [Live Book Sales Order Items since 2021](00-dataset/sales_order_items_wide_s4hc.csv): order_ID, order_date, book_ID, quantity, net_amount
   - [Live Book Sales Order Items since 2021](00-dataset/sales_order_items_wide_s4hc.csv): The format as one or multiple book id, and order date. To be imported into your SAP S/4HANA Cloud tenant via [csv2s4 tool](https://github.com/Ralphive/csv2s4) by [@Ralphive](https://github.com/Ralphive). However, a ready-use SAP S/4HANA Cloud with this data will be prepared for you during our bootcamp.
   - [Archived Historic Book Sales Order Item for 2011~2020](00-dataset/sales_order_items_archived.csv): Stored in external cloud storage or data lake. In our bootcamp storyline, we take AWS S3 for example.
-- [Book Monthly Sales per Book Genre since 2011](00-dataset/monthly_sales_per_genre.csv): Used to forecast next 12 months' book sales(quantity) per genre. Schema as Month,cluster(book genre cluster),Book Sales(Quantity).
+- [Book Monthly Sales per Book Genre since 2011](00-dataset/monthly_sales_per_genre.csv): Used to forecast next 12 months' book sales(quantity) per genre with time-series forecast. Schema as Month(YYYY-MM),cluster(book genre cluster),Book Sales(Quantity).
 ## Data Preparation
 To simplify the data preparation for the bootcamp, we have prepared the data(Book Products, Book Sales Order since 2021) for SAP S/4HANA Cloud and archived historic sales order item for 2011~2020 in AWS S3 bucket. However, if you would like to go through this data-to-value journey on your own, you also can prepare the data in your own SAP S/4 HANA Cloud tenant and AWS S3.
 

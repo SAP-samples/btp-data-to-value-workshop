@@ -15,5 +15,4 @@ In this section, we'll perform the following exercises
 ## End-to-end Machine Learning with SAP Data Intelligence Cloud
 ![Machine Learning Exercises with SAP Data Intelligence Cloud](../resources/di-ml-exercise.png)
 - DV210_Exercise01: Book Recommendation with SAP HANA Machine Learning
-- DV220_Exercise01: Book Genre Clustering via Text Classification and Clustering with Python 
-
+- DV220_Exercise01: Book Genre Clustering via Text Classification and Clustering with Python

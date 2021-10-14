@@ -1,4 +1,6 @@
 # Data Preparation for SAP BTP Data-to-Value Bootcamp
+Important Note: No data preparation needed for the bootcamp, which all the data sources have been prepared by SAP.
+<br/>
 This bookshop dataset is designed for the SAP BTP Data-to-Value Bootcamp, which is based on the [British Library](https://www.bl.uk/collection-metadata/downloads) Dataset about Children's Literature under the [Creative Commons CC0 1.0 Universal Public Domain Dedication License](https://creativecommons.org/publicdomain/zero/1.0/).
 
 ## Description about the dataset
@@ -18,6 +20,8 @@ The schema of sales order item except [Live Book Sales Order Items since 2021](0
 To simplify the data preparation for the bootcamp, we have prepared the data(Book Products, Book Sales Order since 2021) for SAP S/4HANA Cloud and archived historic sales order item for 2011~2020 in AWS S3 bucket. However, if you would like to go through this data-to-value journey on your own, you also can prepare the data in your own SAP S/4 HANA Cloud tenant and AWS S3.
 
 ### #1-Bookshop Solution Data in SAP HANA Cloud
+No data preparation needed for the bootcamp, which all the data sources has been prepared by SAP.
+
 The online bookshop solution data is stored in SAP HANA Database of SAP HANA Cloud, including the Books, Authors, Genres and Book Sales Order Items. The bookshop solution enables the booshop manager to maintain the book catalog, and the end customer of bookshop to place book order online, and synchronised to SAP S/4HANA Cloud for order-to-cash process.
 <br/><br/>
 

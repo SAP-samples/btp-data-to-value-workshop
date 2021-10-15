@@ -66,6 +66,32 @@ As an SAP partner, through this bootcamp you’ll help John to address business 
 - ...
 
 ### Solution Architecture
+**Disclaimer:**<br/>
+The following Solution Architecture of Data-to-Value for our bookshop storyline with multiple data sources purposely includes the completed SAP BTP solution portofilo of Database, Data Management&Analytics, namely SAP HANA Cloud, SAP Data Warehouse Cloud, SAP Data Intelligence Cloud and SAP Analytics Cloud, which is just one of many viable options to achieve the same use cases in the storyline. <br/><br/>
+In real customer case, the journey of Data-to-Value may be attributed to the following key factors:
+- business ojectives and requirements
+    - real-time or acceptable latency
+    - agility
+    - data-driven decision
+    - data-driven product or service
+    - augmentation and automation
+    - reimagining business model
+    - ...
+- technical requirements and viability
+    - data span: system landscape complexity
+    - data type variety: structured data, semi-structured data, unstructured data etc.
+    - data volume                                                      
+    - data storage, data staging
+    - data integration
+    - data processing
+    - data governance
+    - data orchestration
+    - ...
+- economical feasibility
+    - TCO(Total Cost of Ownership) 
+    - ROI(Return On Investment)
+    - ...
+
 ![Bookshop Data-to-Value Solution Architecture](resources/bookshop-d2v-architecture.png)
 - SAP S/4HANA Cloud: The books are mapped as product master data, and active books sales order since 2021 are recorded.
 - SAP HANA Cloud: SAP HANA DB is used as a database of bookshop solution extending SAP S/4HANA Cloud in a fashion of Side-by-Side Extensibility.

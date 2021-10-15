@@ -1,5 +1,6 @@
 # Data Preparation for SAP BTP Data-to-Value Bootcamp
-Important Note: No data preparation needed for the bootcamp, which all the data sources have been prepared by SAP.
+**Important Note**: No data preparation needed for the bootcamp, which all the data sources have been prepared by SAP. System Access information are communicated to the participants within the dedicated MicroSoft Teams > General Channel > System Access Tab. Here the data preparation guide is for anyone who would like to go through the data-to-value exercises on their own.
+<br/>
 <br/>
 This bookshop dataset is designed for the SAP BTP Data-to-Value Bootcamp, which is based on the [British Library](https://www.bl.uk/collection-metadata/downloads) Dataset about Children's Literature under the [Creative Commons CC0 1.0 Universal Public Domain Dedication License](https://creativecommons.org/publicdomain/zero/1.0/).
 

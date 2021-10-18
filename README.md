@@ -14,6 +14,7 @@ The bookshop solution is a popular example of SAP Cloud Application Programing M
 <br/>
 Table of content
 - [Description](#Description)
+    - [Objectives](#Objectives)
     - [Agenda](#Agenda)
     - [Storyline](#Storyline)
     - [Solution Architecture](#Solution-Architecture)
@@ -33,6 +34,9 @@ This GitHub repository contains the dataset, exercises, and sample code for the 
 - SAP Data Warehouse Cloud (DWC)
 - SAP Data Intelligence Cloud (DI)
 - SAP Analytics Cloud (SAC)
+
+### Objectives
+The main objective of this bootcamp and its associated GitHub Repository here is to help you to get started with SAP Data-to-Value journey with an end-to-end storyline.
 
 ### Agenda
 The agenda of this bootcamp is structured as process-oriented as below instead of product-oriented.

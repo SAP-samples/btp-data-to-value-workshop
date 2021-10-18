@@ -1,5 +1,5 @@
 # Data Preparation for SAP BTP Data-to-Value Bootcamp
-**Important Note**: No data preparation needed for the bootcamp, which all the data sources have been prepared by SAP. System Access information are communicated to the participants within the dedicated MicroSoft Teams > General Channel > System Access Tab. Here the data preparation guide is for anyone who would like to go through the data-to-value exercises on their own.
+**Important Note**: No data preparation required for the bootcamp participants, which all the data sources have been prepared by SAP. System Access information are communicated to the participants within the dedicated MicroSoft Teams > General Channel > System Access Tab. Here the data preparation guide is for anyone who would like to go through the data-to-value exercises on their own.
 <br/>
 <br/>
 This bookshop dataset is designed for the SAP BTP Data-to-Value Bootcamp, which is based on the [British Library](https://www.bl.uk/collection-metadata/downloads) Dataset about Children's Literature under the [Creative Commons CC0 1.0 Universal Public Domain Dedication License](https://creativecommons.org/publicdomain/zero/1.0/).
@@ -31,7 +31,6 @@ The online bookshop solution data is stored in SAP HANA Database of SAP HANA Clo
 - [data preparation via cap(SAP Cloud Application Programing Model) project deployment](01-bookshop-hcs/cap): This bookshop solution is forged from the [bookshop exercise project](https://github.com/jacobahtan/bootcamp-cap-bookshop)(part of our BTP Extension Suite bootcamp) prepared by our colleague [Jacob Tan](https://github.com/jacobahtan). We have updated it with our the bookshop dataset for data-to-value bootcamp. Have to acknowledge that it is orginally forged from the famous [cap sample about bookshop](https://github.com/SAP-samples/cloud-cap-samples/tree/master/bookshop) by a bunch of SAP CAP gurus from the community. To deploy the bookshop solution with data, please follow this document.
 
 ### #2-Book Products and Sales Order since 2021 in SAP S/4HANA Cloud
-
+No data preparation required for the bootcamp participants. All the data sources has been prepared by SAP.
 ### #3-Archived Historic Book Sales Order items(2011~2020) in AWS S3
-
-
+No data preparation required for the bootcamp participants. All the data sources has been prepared by SAP.

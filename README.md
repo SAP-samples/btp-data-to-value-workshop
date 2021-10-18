@@ -41,25 +41,20 @@ The agenda of this bootcamp is structured as process-oriented as below instead o
 - Data Visualisation and Analytics (SAC) 
 
 ### Storyline
-![Bookshop Data-to-Value Storyline](resources/bookshop-d2v-storyline.png)
+[![Bookshop Data-to-Value Storyline](resources/bookshop-d2v-storyline.png)](https://www.youtube.com/watch?v=HoF25aaZRlY&list=PLUvT3ZwlN9W3iXfnhh8CW2VKxSnf3bcCc&index=1 "Bookshop Storyline Demo")
+[Bookshop Storyline Demo Video](https://www.youtube.com/watch?v=HoF25aaZRlY&list=PLUvT3ZwlN9W3iXfnhh8CW2VKxSnf3bcCc&index=1)
+<br/>
+John, the owner of an online bookshop of children literature named Amilka Bookshop Ltd. base in London, as a fan of Roald Dahl since childhood back in the 80's who has a dream of owning a bookshop in neighborhood with heaps of attractive collections of children reading, has started his own online bookshop business(eCommerce) since 2011 specializing in children literature, and used a local ERP for operation. As the business grows and expands geographically, in late 2020, John has hired an SAP partner to replace the local ERP with a modern modular cloud ERP **SAP S/4HANA Cloud**, and migrate the legacy bookshop management solution to SAP HANA Cloud with SAP Cloud Application Programing Model, which has seamless integration with SAP S/4HANA Cloud. The historical book sales data from 2011 to 2020 are extracted from legacy ERP into csv files. The project has successfully gone live since beginning of 2021. Since then the book sales have been maintained in SAP S/4HANA Cloud, the book catalog and online orders are managed with the new bookshop solution.  <br/>
 
-John, the owner of an online bookshop business named Amilka Bookshop Ltd. based in London, as a fan of Roald Dahl since childhood in the 80's who has a dream of owning a bookshop in his neighborhood with heaps of attractive children literature collections, has started his own bookshop business since 2011 as an online bookshop web shop specializing in children literature. Later in-house bookshop management implements a local ERP for finance and operation. As the business grows and expands geographically, in late 2020, John has hired an SAP partner to replace the local ERP with a modern modular cloud ERP -- SAP S/4HANA Cloud -- and migrate the legacy bookshop management solution to SAP HANA Cloud with SAP Cloud Application Programing Model with seamless integration with SAP S/4HANA Cloud. The historical book sales data from 2011 to 2020 are extracted from legacy ERP into csv files. The project has successfully gone live since beginning of 2021. Since then the book sales have been maintained in SAP S/4HANA Cloud, so is the book catalog and online orders are managed with the new bookshop solution powered by SAP HANA Cloud and SAP Cloud Application Programing Model.  <br/>
-
-Given the business data accumulated for the past decade, John realizes that he could have making use of these data for:
-- smart business insight and decision making 
-- intelligent business planning
-- operational efficiency improvement with automation
-- reimagining the business with new services or products
-- ...
-
-The data landscape of Amilka Bookshop Ltd. as:
+Now the data landscape of Amilka Bookshop Ltd. as:
 - bookshop solution (books, authors, genres, etc.) in SAP HANA Cloud
-- active book sales data since 2021 in SAP S/4HANA Cloud
+- current book sales data since 2021 in SAP S/4HANA Cloud
 - archived historic book sales data from 2011 to 2020 in AWS S3
 
-As an SAP partner, through this bootcamp you’ll help John to address business questions such as:
-- quarterly books sales trend
-- top best-selling books/authors, and drill down to insight about specific book sales trend etc.
+As an SAP partner, through this bootcamp you’ll help John with the Data-to-Value journey to address business questions such as:
+- sales KPI of current quarter
+- quarterly books sales trend since 2020
+- top best-selling books of 2021, and drill down by month, author and book.
 - book sales forecast and planning
 - book recommendation with machine learning to improve the customer purchasing experience and upsales.
 - book genre clustering with machine learning to automate the book genre prediction for new books. 
@@ -67,11 +62,11 @@ As an SAP partner, through this bootcamp you’ll help John to address business 
 
 ### Solution Architecture
 **Disclaimer:**<br/>
-The following Solution Architecture of Data-to-Value for our bookshop storyline with multiple data sources purposely includes the completed SAP BTP solution portofilo of Database, Data Management&Analytics, namely SAP HANA Cloud, SAP Data Warehouse Cloud, SAP Data Intelligence Cloud and SAP Analytics Cloud, which is just one of many viable options to achieve the same use cases in the storyline. <br/><br/>
-In real customer case, the journey of Data-to-Value may be attributed to the following key factors:
+The following Solution Architecture of Data-to-Value for the bookshop storyline purposely includes the completed SAP BTP solution portofilo of Database, Data Management&Analytics, namely SAP HANA Cloud, SAP Data Warehouse Cloud, SAP Data Intelligence Cloud and SAP Analytics Cloud, which is just one of many viable options to achieve the same use cases of the storyline. <br/><br/>
+In real customer case, the journey of Data-to-Value may vary and attribute to the following key factors:
 - business ojectives and requirements
     - real-time or acceptable latency
-    - agility
+    - agility and accessibility
     - data-driven decision
     - data-driven product or service
     - augmentation and automation
@@ -93,15 +88,18 @@ In real customer case, the journey of Data-to-Value may be attributed to the fol
     - ...
 
 ![Bookshop Data-to-Value Solution Architecture](resources/bookshop-d2v-architecture.png)
-- SAP S/4HANA Cloud: The books are mapped as product master data, and active books sales order since 2021 are recorded.
-- SAP HANA Cloud: SAP HANA DB is used as a database of bookshop solution extending SAP S/4HANA Cloud in a fashion of Side-by-Side Extensibility.
-- AWS S3: The archived historic book sales order items from 2011 to 2020 in csv format.
-- SAP Data Warehouse Cloud: Used as a central data storage and management to integrate, transform and persist the three data sources above, eventually modeled as a comprehensive multi-dimensional anlaytcal cube of book sales order item with book, author, genre, year/quarter/month etc dimension for Books Sales analytics. Also used for Book Recommendation with PAL/APL of built-in HANA Cloud Service within SAP Data Warehouse Cloud.
-- SAP Data Intelligence Cloud: End-to-end Machine Learning Orchestration and Optionisation for Book Recommendation and Book Genre Clustering
-- SAP Analytics Cloud: Used for data virtualisation and anltyics of bookshop, such as       
-    - Bookshop Sales 360 with live connection to SAP Data Warehouse Cloud's consumption model
+In this sample solution architecture of the bookshop storyline, it is made of:
+- **SAP S/4HANA Cloud**: The books are mapped as product master data, and current books sales order since 2021 are recorded.
+- **SAP HANA Cloud**: SAP HANA DB used as a database of bookshop solution extending SAP S/4HANA Cloud in a fashion of Side-by-Side Extensibility.
+- **AWS S3**: The archived historic book sales order items from 2011 to 2020 in csv format.
+- **SAP Data Warehouse Cloud**: 
+    - Used as a central data storage and management to integrate, transform and persist the three data sources above, modeling for Books Sales analytics. 
+    - Used for Book Recommendation machine learning with PAL/APL of built-in HANA Cloud Service within SAP Data Warehouse Cloud based on the combined Books Sales Data, which is orchestrated and operationalised by SAP Data Intelligence Cloud.
+- **SAP Data Intelligence Cloud**: End-to-end Machine Learning Orchestration and Optionisation for Book Recommendation and Book Genre Clustering
+- **SAP Analytics Cloud**: Used for data virtualisation and anltyics of bookshop, such as       
+    - Bookshop Sales 360 with a live connection to SAP Data Warehouse Cloud's consumption model and perspctives
         - Book Sales KPI of current Quarter, 
-        - Quarterly Book Sales Trend, 
+        - Quarterly Book Sales Trend since 2020, 
         - Interactive Sales Insight by Month/Book/Author, 
         - Montly Book Sales Report etc. 
     - Book Sales Forecast with Predictive Planning.
@@ -119,33 +117,36 @@ In real customer case, the journey of Data-to-Value may be attributed to the fol
 
 ## Requirements
 ### System Access Prerequisites
-The system prerequisites below only apply to the self-pace learning without attending our BTP Data-to-Value bootcamp organized by the Partner Ecosystem Success organization of SAP, which all these system accesses are prepared and communicated by SAP to the participants who attend the bootcamp.
+**Impportant Note**: No action required here for the participants attending SAP Data-to-Value bootcamp.<br/><br/>
+The following system access prerequisites only apply to the self-pace learning without attending the BTP Data-to-Value bootcamp series organized by the Partner Ecosystem Success organization of SAP, in which all these system accesses are prepared and communicated by SAP to the participants who attend the bootcamp.
 - An SAP HANA Cloud instance (trial version is fine) for bookshop solution
     - Provision a SAP HANA Database instance of SAP HANA Cloud Service used by the bookshop solution. Required by self-pace learning without attending the bootcamp, which has been prepared with Technical Academy Environment
     - Obtain the SAP HANA Database Explorer URL, HANA Database User and Password to the target SAP HANA Cloud Service through you SAP HANA Cloud central.
 - An SAP S/4HANA Cloud tenant for book products and active sales orders of books since 2021
 - An AWS S3 bucket for archived historic book sales orders from 2011 to 2020
-- An SAP Data Warehouse Cloud tenant. (Trial version will have the limitation of HANA Machine Learning, which is used in one exercise about Book Recommendation.)
-- An SAP Data Intelligence Cloud tenant (trial version is fine)
-- An SAP Analytics Cloud tenant (trial version is fine)
+- An SAP Data Warehouse Cloud tenant. (Trial version almost fine execpt no Machine Learning enabled for the built-in SAP HANA Cloud service,therefore you won't be able to perform Book Recommendation execise with DWC trial.)
+- An SAP Data Intelligence Cloud tenant (Trial version is fine)
+- An SAP Analytics Cloud tenant (Trial version is fine)
 
 ### Knowledge Prerequisites
-For the day 2 of the bootcamp, we have covered two machine learning scenarios, 
-- one for book recommendation with SAP HANA Machine Learning 
-- the other for book genre clustering with sklearn. 
+For the day two of the bootcamp, it will cover two machine learning scenarios, 
+- book recommendation with SAP HANA Machine Learning 
+- book genre clustering with sklearn in Python Machine Learning. 
 
-Therefore, in order to have an effective learning, the participants should teach themselves with this openSAP course about [Get Started with Data Science (Edition 2021)](https://open.sap.com/courses/ds3)
+Therefore, in order to have an effective learning, before day two the participants should teach themselves with this openSAP course about [Get Started with Data Science (Edition 2021)](https://open.sap.com/courses/ds3) if you don't have a data scicense background.
 
 ## End-to-end Exercises Flow
+This section describes the end-to-end flow of exercises. Please click each for detail.
 ### [00-Data Preparation](00-data-preparation)
-Here you can find the dataset and steps to prepare the data.
+Here you find the dataset details and steps to prepare the data on own for self-pace learning.<br/>
+No action required for the bootcamp participants, for all the data have been prepared by SAP.
 ### [01-Data Prevision&Integration](01-data-provision&integration)
-Here you will perform the exercises about how to connect the following source system to SAP Data Warehouse Cloud and SAP Data Intellgience Cloud
+Here you will perform the exercises about how to connect the following source systems in the storyline to SAP Data Warehouse Cloud and SAP Data Intellgience Cloud
 - SAP HANA Cloud(bookshop solution)
-- SAP S/4HANA Cloud
-- AWS S3
+- SAP S/4HANA Cloud(book sales since 2021)
+- AWS S3(archived historic book sales from 2011 to 2020)
 ### [02-Data Modeling&Processing](02-data-modeling&processing)
-Here you will perform the exercises to 
+in this section, you will perform the exercises to 
 - Create an end-to-end Book Sales Analysis Consumption Model with data builder and business builder of SAP Data Warehouse Cloud.
 - Create a Book Recommendation machine learning model with Jupyter notebook using Market Analysis Association in SAP HANA Machine Learning(PAL/APL), and operationalise the model training and inference with pipeline in SAP Data Intelligence Cloud.
 - Create a Book Genre machine learning model with Jupyter notebook using sklearn, and operationalise the model training and inference with pipeline in SAP Data Intelligence Cloud.
@@ -157,9 +158,10 @@ Here you will perform the exercises to
 - Add a story page for Sales Insight by publisher with Search to Insight and Smart insight
 - Create a planning model by uploading a CSV file
 - Create a book sales forecast with predictive planning.
-## How to obtain support
 
-[Create an issue](https://github.com/SAP-samples/<repository-name>/issues) in this repository if you find a bug or have questions about the content.
+## How to obtain support
+For the bootcamp participants, please use the dedicated MicroSoft Teams Channel for Q&A.<br/>
+For the self-pace learning without attending the bootcamp, please [Create an issue](https://github.com/SAP-samples/<repository-name>/issues) in this repository if you find a bug or have questions about the content.
 
 For additional support, [ask a question in SAP Community](https://answers.sap.com/questions/ask.html).
 

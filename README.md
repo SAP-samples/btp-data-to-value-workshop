@@ -94,13 +94,13 @@ In real customer case, the journey of Data-to-Value may vary and attribute to th
 ![Bookshop Data-to-Value Solution Architecture](resources/bookshop-d2v-architecture.png)
 In this sample solution architecture of the bookshop storyline, it is made of:
 - **SAP S/4HANA Cloud**: The books are mapped as product master data, and current books sales order since 2021 are recorded.
-- **SAP HANA Cloud**: SAP HANA DB used as a database of bookshop solution extending SAP S/4HANA Cloud in a fashion of Side-by-Side Extensibility.
+- **SAP HANA Cloud**: ([Demo Video](https://www.youtube.com/watch?v=C-AQRhkZJOE&list=PLUvT3ZwlN9W3iXfnhh8CW2VKxSnf3bcCc&index=2))SAP HANA DB used as a database of bookshop solution extending SAP S/4HANA Cloud in a fashion of Side-by-Side Extensibility.
 - **AWS S3**: The archived historic book sales order items from 2011 to 2020 in csv format.
-- **SAP Data Warehouse Cloud**: 
+- **SAP Data Warehouse Cloud**: ([Demo Video](https://www.youtube.com/watch?v=HGW8kS0SgcE&list=PLUvT3ZwlN9W3iXfnhh8CW2VKxSnf3bcCc&index=3))
     - Used as a central data storage and management to integrate, transform and persist the three data sources above, modeling for Books Sales analytics. 
     - Used for Book Recommendation machine learning with PAL/APL of built-in HANA Cloud Service within SAP Data Warehouse Cloud based on the combined Books Sales Data, which is orchestrated and operationalised by SAP Data Intelligence Cloud.
-- **SAP Data Intelligence Cloud**: End-to-end Machine Learning Orchestration and Optionisation for Book Recommendation and Book Genre Clustering
-- **SAP Analytics Cloud**: Used for data virtualisation and anltyics of bookshop, such as       
+- **SAP Data Intelligence Cloud**: ([Demo Video](https://www.youtube.com/watch?v=p8BXFQJyDt4&list=PLUvT3ZwlN9W3iXfnhh8CW2VKxSnf3bcCc&index=4)).End-to-end Machine Learning Orchestration and Optionisation for Book Recommendation and Book Genre Clustering. 
+- **SAP Analytics Cloud**: ([Demo Video](https://www.youtube.com/watch?v=Fls06IRHUDQ&list=PLUvT3ZwlN9W3iXfnhh8CW2VKxSnf3bcCc&index=5)).Used for data virtualisation and anltyics of bookshop, such as       
     - Bookshop Sales 360 with a live connection to SAP Data Warehouse Cloud's consumption model and perspctives
         - Book Sales KPI of current Quarter, 
         - Quarterly Book Sales Trend since 2020, 

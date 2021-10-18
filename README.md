@@ -1,15 +1,15 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/btp-data-to-value-workshop)](https://api.reuse.software/info/github.com/SAP-samples/btp-data-to-value-workshop)
 # SAP BTP Data-to-Value Bootcamp
-This SAP BTP Data-to-Value Bootcamp is developed and delivered by Partner Ecosystem Success Organization (formerly known as GPO) of SAP SE, which aims to accelerate SAP partner adoption of SAP BTP for Data-to-Value. The bootcamp uses an end-to-end storyline about a bookshop, helping the bookshop manager to turn the data into business values with the SAP BTP solution portfolio about database, data management & analytics. 
+This SAP BTP Data-to-Value Bootcamp is developed and delivered by Partner Ecosystem Success Organization (formerly known as GPO) of SAP SE, which aims to help SAP partners quickly jump started with SAP BTP for Data-to-Value journey. The bootcamp uses an end-to-end storyline about a bookshop, helping the bookshop manager to turn  data into business values with the SAP BTP solution portfolio of Database, Data Management & Analytics. 
 <br/>
 <br/>
-The bootcamp events are organized and delivered through SAP Learning Hub with a format of presentation, demo and exercise, which lasts 3~4 hours each day and 3 days in total. In addition, the system access of this bootcamp are prepared for the participants by SAP organizer. However, the system requirement and data preparation is also documented in this repository, where you can build up your own system landscape to complete this bootcamp on your own.
+The bootcamp series events are organized and delivered through SAP Virtual Event Services with a format of presentation, demo and exercise, which lasts 3~4 hours each day and 3 days in total. In addition, the system access of this bootcamp are prepared for the participants by SAP organizer. However, the system requirement and data preparation is also documented in this repository for those who don't attend the bootcamp, where you can build up your own system landscape to complete this bootcamp on your own with self-pace learning.
 <br/>
 <br/>
 At the end of the bootcamp, a badge will be issued by SAP to those participants who have gone throughout the whole bootcamp  and completed all the exercise tasks as a recognition of achievement.
 <br/>
 <br/>
-The bookshop solution is a popular example of SAP Cloud Application Programing Model (CAP) for side-by-side extensibility with SAP BTP, also as an exercise of our SAP BTP Extension Suite Bootcamp. 
+The bookshop solution is a popular [example](https://github.com/SAP-samples/cloud-cap-samples/tree/master/bookshop) of SAP Cloud Application Programing Model (CAP) about side-by-side extensibility with SAP BTP, also as an exercise of our SAP BTP Extension Suite Bootcamp.
 <br/>
 <br/>
 Table of content
@@ -29,7 +29,7 @@ Table of content
     - [03-Data Visualisation&Analytics](#03-Data-VisualisationAnalytics)
 
 ## Description
-This GitHub repository contains the dataset, exercises, and sample code for the SAP BTP Data-to-Value Bootcamp. Covering an end-to-end data-to-value process with the database, data management & analytics solution portfolio of SAP Business Technology Platform such as: 
+This GitHub repository contains the dataset, exercises, and sample code for the SAP BTP Data-to-Value Bootcamp. Covering an end-to-end data-to-value process with the Database, Data management & Analytics solution portfolio of SAP Business Technology Platform such as: 
 - SAP HANA Cloud Service (HCS) 
 - SAP Data Warehouse Cloud (DWC)
 - SAP Data Intelligence Cloud (DI)

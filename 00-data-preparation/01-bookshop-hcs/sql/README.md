@@ -24,3 +24,6 @@ Please import the following tables with csv files in sequence through Catalog > 
 - SAP_CAPIRE_BOOKSHOP_AUTHORS: [authors.csv](../../00-dataset/authors.csv)
 - SAP_CAPIRE_BOOKSHOP_BOOKS: [books.csv](../../00-dataset/books.csv)
 - SAP_CAPIRE_BOOKSHOP_ORDERITEMS: [sales_order_items_all.csv](../../00-dataset/sales_order_items_all.csv)
+
+## License
+Copyright (c) 2021 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](../../../LICENSES/Apache-2.0.txt) file.

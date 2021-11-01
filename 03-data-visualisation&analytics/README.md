@@ -15,3 +15,6 @@ In this section, we'll perform the following exercises to create a story about B
 
 ## DV330-Predictive Planning with SAP Analytics Cloud
 - [DV330_Exercise01](exercises/DV330_Exercise01_Book_Sales_Forecast_with_SAC_Predictive_Planning.pdf): Book Sales Forecast with Preditive Planning in SAP Analytics Cloud
+
+## License
+Copyright (c) 2021 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](../LICENSES/Apache-2.0.txt) file.

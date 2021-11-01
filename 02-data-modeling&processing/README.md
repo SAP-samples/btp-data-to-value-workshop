@@ -30,3 +30,6 @@ In this section, we'll perform the following exercises
     - [Demo#1-Book Genre Clustering with Python](https://www.youtube.com/watch?v=AQ4zCWn7y-0&list=PLUvT3ZwlN9W3iXfnhh8CW2VKxSnf3bcCc&index=20)
     - [Demo#2-ML Training Pipeline with SAP Data Intelligence Cloud](https://www.youtube.com/watch?v=KNFaD-dopbk&list=PLUvT3ZwlN9W3iXfnhh8CW2VKxSnf3bcCc&index=22)
     - [Demo#3 ML Serving Pipeline with SAP Data Intelligence Cloud](https://www.youtube.com/watch?v=T9sWKaxOUQg&list=PLUvT3ZwlN9W3iXfnhh8CW2VKxSnf3bcCc&index=23)
+
+## License
+Copyright (c) 2021 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](../LICENSES/Apache-2.0.txt) file.

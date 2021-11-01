@@ -24,3 +24,6 @@ As well as, connecting SAP Data Warehouse Cloud to SAP Data Intelligence Cloud, 
 - [DV150_Exercise03](exercises/DV150_Exercise03_S3_DI_Connection_Setup.pdf): Connect AWS S3 to SAP Data Intelligence Cloud<br/>
 [Demo Video](https://www.youtube.com/watch?v=s_vYEA603M8&list=PLUvT3ZwlN9W3iXfnhh8CW2VKxSnf3bcCc&index=11)
 - DV150_Exercise04: Connect SAP Data Warehouse Cloud to SAP Data Intelligence Cloud. This exercises is not required for the Bootcamp partcipants, which has been created by default as a DWC connection named DWC_XXXXXXXX(XXXXXX stands your assigned user id) in SAP Data Intelligence Cloud.
+
+## License
+Copyright (c) 2021 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](../LICENSES/Apache-2.0.txt) file.

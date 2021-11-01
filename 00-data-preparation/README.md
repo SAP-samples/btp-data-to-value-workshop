@@ -34,3 +34,6 @@ The online bookshop solution data is stored in SAP HANA Database of SAP HANA Clo
 No data preparation required for the bootcamp participants. All the data sources has been prepared by SAP.
 ### #3-Archived Historic Book Sales Order items(2011~2020) in AWS S3
 No data preparation required for the bootcamp participants. All the data sources has been prepared by SAP.
+
+## License
+Copyright (c) 2021 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](../LICENSES/Apache-2.0.txt) file.

@@ -137,8 +137,9 @@ For the day two of the bootcamp, it will cover two machine learning scenarios,
 - book recommendation with SAP HANA Machine Learning 
 - book genre clustering with sklearn in Python Machine Learning. 
 
-Therefore, in order to have an effective learning, before day two the participants should teach themselves with this openSAP course about [Get Started with Data Science (Edition 2021)](https://open.sap.com/courses/ds3) if you don't have a data scicense background.
-
+Therefore, in order to have an effective learning, before day two the participants should teach themselves with this openSAP course about [Get Started with Data Science (Edition 2021)](https://open.sap.com/courses/ds3) if you don't have a data scicense background.<br/>
+If you don't have enough time to complete the whole 6 weeks of the openSAP course above, here list the essentially required topics marked as highly recommended for Data-to-Value.
+![DS3 essentially required topics for Data-to-Value](resources/ds3-required-topics.png)
 ## End-to-end Exercises Flow
 This section describes the end-to-end flow of exercises. Please click each for detail.
 ### [00-Data Preparation](00-data-preparation)

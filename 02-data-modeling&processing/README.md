@@ -1,5 +1,5 @@
 # Data Modeling&Processing
-In this section, we'll perform the following exercises 
+In this section, we'll perform the following exercises
 - End-to-end Modeling with SAP Data Warehouse Cloud for Book Sales Analysis
 - End-to-end Machine Learning with SAP Data Intelligence Cloud for
     - Book Recommendation
@@ -20,10 +20,7 @@ In this section, we'll perform the following exercises
 
 ## End-to-end Machine Learning with SAP Data Intelligence Cloud
 ![Machine Learning Exercises with SAP Data Intelligence Cloud](../resources/di-ml-exercise.png)
-- DV210_Exercise01: Book Recommendation with SAP HANA Machine Learning. <br/>
-**Import Note:** The original exercise is ought to leverage the built-in SAP HANA Machine Learning of SAP Data Warehouse Cloud against the local table All_Book_Sales as output of DV200_Exercise02. <br/> However, due to the infrastructure issue, we have to fall back to use the SAP HANA Cloud for this exercise in which the bookshop solution is running, which require the participant to prepare the all the sales order item data in their own SAP HANA Cloud tenant. Therefore, the exercise flow as below:<br/>
-  - Please follow this [data preparation for bookshop solution in SAP HANA Cloud via sql](../00-data-preparation/01-bookshop-hcs/sql) to create the tables(Please refer the System Access in dedicated MicroSoft Teams for SAP HANA Cloud tenant information). And then you only need to import the data for table SAP_CAPIRE_BOOKSHOP_ORDERITEMS with [sales_order_items_all.csv](../00-data-preparation/00-dataset/sales_order_items_all.csv), which is only required by this book recommendation exercise with SAP HANA machine learning
-  - Perform [DV210_Exercise01](exercises/DV210_Exercise01_Book_Recommendation_with_SAP_HANA_Machine_Learning.pdf). The related Jupytor Notebook is available [here](exercises/DV210_Exercise01_Book_Recommendation.ipynb) for referene. <br/>
+- [DV210_Exercise01](exercises/DV210_Exercise01_Book_Recommendation_with_SAP_HANA_Machine_Learning.pdf): Book Recommendation with SAP HANA Machine Learning. The related Jupyter Notebook is available [here](exercises/DV210_Exercise01_Book_Recommendation.ipynb) for referene. <br/>
   [Demo#1-Book Recommendation with SAP HANA Machine Learning via Jupiter Notebook](https://www.youtube.com/watch?v=iYrvlq9_9EM&list=PLUvT3ZwlN9W3iXfnhh8CW2VKxSnf3bcCc&index=19)<br/>
   [Demo#2-Custom operator about HANA ML training for book recommendation](https://www.youtube.com/watch?v=HfY6g6Wmz6Y&list=PLUvT3ZwlN9W3iXfnhh8CW2VKxSnf3bcCc&index=21)
 - [DV220_Exercise01](exercises/DV220_Exercise01_Book_Genre_Clustering_via_Text_Classification_and_Clustering_with_Python.pdf): Book Genre Clustering via Text Classification and Clustering with Python. The related Jupytor Notebook is available [here](exercises/DV220_Exercise01_Book_Genre_Clustering.ipynb) for referene.

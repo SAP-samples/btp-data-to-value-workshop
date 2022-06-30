@@ -1,4 +1,5 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/btp-data-to-value-workshop)](https://api.reuse.software/info/github.com/SAP-samples/btp-data-to-value-workshop)
+
 # SAP BTP Data-to-Value Bootcamp
 This SAP BTP Data-to-Value Bootcamp is developed and delivered by Partner Ecosystem Success Organization (formerly known as GPO) of SAP SE, which aims to help SAP partners quickly jump started with SAP BTP for Data-to-Value journey. The bootcamp uses an end-to-end storyline about a bookshop, helping the bookshop manager to turn  data into business values with the SAP BTP solution portfolio of Database, Data Management & Analytics. 
 <br/>

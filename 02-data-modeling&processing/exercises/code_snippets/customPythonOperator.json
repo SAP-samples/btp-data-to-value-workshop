@@ -1,0 +1,61 @@
+{
+	"$schema": "http://json-schema.org/draft-06/schema#",
+	"$id": "http://sap.com/vflow/HANA_ML_BLOG.configSchema.json",
+	"type": "object",
+	"properties": {
+		"hanaConnection": {
+			"title": "HANA Connection",
+			"description": "HANA Connection",
+			"type": "object",
+			"properties": {
+				"configurationType": {
+					"title": "Configuration Type",
+					"type": "string",
+					"enum": [
+						" ",
+						"Configuration Manager",
+						"Manual"
+					]
+				},
+				"connectionID": {
+					"title": "Connection ID",
+					"type": "string",
+					"format": "com.sap.dh.connection.id",
+					"sap_vflow_valuehelp": {
+						"url": "/app/datahub-app-connection/connections?connectionTypes=HANA_DB",
+						"valuepath": "id",
+						"displayStyle": "autocomplete"
+					},
+					"sap_vflow_constraints": {
+						"ui_visibility": [
+							{
+								"name": "configurationType",
+								"value": "Configuration Manager"
+							}
+						]
+					}
+				},
+				"connectionProperties": {
+					"title": "Connection Properties",
+					"$ref": "http://sap.com/vflow/com.sap.dh.connections.hana_db.schema.json",
+					"sap_vflow_constraints": {
+						"ui_visibility": [
+							{
+								"name": "configurationType",
+								"value": "Manual"
+							}
+						]
+					}
+				}
+			},
+			"required": []
+		},
+		"codelanguage": {
+			"type": "string"
+		},
+		"script": {
+			"type": "string"
+		}
+	},
+	"required": []
+}

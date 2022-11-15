@@ -15,11 +15,11 @@ def on_input(data):
 
 # insert your specific code / script here ...
     import hana_ml.dataframe as dataframe
-    df_hana = (conn.table('SAP_CAPIRE_BOOKSHOP_BOOKS', schema='DATA2VALUE'))
+    df_hana = (conn.table('Book_Author_Dimension_View', schema='D2VUXXXX'))
 
-    books= df_hana.select(['ID','DESCR']).collect()
+    books= df_hana.select(['Book_ID','Book_Description']).collect()
     del df_hana
-    books=books.dropna(axis=0,subset=['DESCR'])
+    books=books.dropna(axis=0,subset=['Book_Description'])
 
     import nltk
     import ssl
@@ -37,8 +37,7 @@ def on_input(data):
     import regex as re
 
     #Transform to lower case
-    #books['tokens']=books['Book_Description'].apply(lambda x: x.lower())
-    books['tokens']=books['DESCR'].apply(lambda x: x.lower())
+    books['tokens']=books['Book_Description'].apply(lambda x: x.lower())
     #Remove punctuation
     books['tokens']=books['tokens'].map(lambda x: re.sub("[-,\.!?;\'\(\)]", ' ', x))
     #Remove stopwords

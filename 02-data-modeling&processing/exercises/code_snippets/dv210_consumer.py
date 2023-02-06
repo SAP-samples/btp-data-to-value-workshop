@@ -19,12 +19,12 @@ def is_json(data):
 #def on_trigger(data):
 
 conn = hana_ml.dataframe.ConnectionContext(
-api.config.hanaConnection['connectionProperties']['host'],
-api.config.hanaConnection['connectionProperties']['port'],
-api.config.hanaConnection['connectionProperties']['user'],
-api.config.hanaConnection['connectionProperties']['password'],
-encrypt='true',
-sslValidateCertificate='false')
+    api.config.hanaConnection['connectionProperties']['host'],
+    api.config.hanaConnection['connectionProperties']['port'],
+    api.config.hanaConnection['connectionProperties']['user'],
+    api.config.hanaConnection['connectionProperties']['password'],
+    encrypt='true',
+    sslValidateCertificate='false')
 
 try:
     # Load your HANA_ML model here
@@ -32,8 +32,8 @@ try:
     model_ready = True
     api.logger.info("Model Received & Ready")
 except Exception as e:
-        api.logger.error(e)
-        error_message = "An error occurred while loading the model: " + str(e)
+    api.logger.error(e)
+    error_message = "An error occurred while loading the model: " + str(e)
 
 
 # Client POST request received
